@@ -42,16 +42,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Website Development",
+    title: "Frontend Development",
     icon: web,
+  },
+  {
+    title: "Backend Development",
+    icon: backend,
   },
   {
     title: "Search Engine Optimization",
     icon: mobile,
-  },
-  {
-    title: "Graphics Designing",
-    icon: backend,
   },
   {
     title: "App Development",
@@ -116,55 +116,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "Freelancing",
+    icon: 'https://assets-global.website-files.com/603fea6471d9d8559d077603/6092b7514135708162a4be92_Favicon%20256.png',
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2022 - June 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with international clients and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Laudco Media",
+    icon: 'https://www.laudco.com/wp-content/uploads/2021/10/cropped-NkqJmjVfVYE9cegFgw0V-2.png',
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, Wordpress and other related technologies.",
+      "SEO of websites and and ensuring cross-browser compatibility.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -172,23 +145,23 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a 3D Data graph website as our product, but Ravi proved me wrong.",
+    name: "George Padvorac",
+    designation: "CO-Founder",
+    company: "nwis",
+    image: "https://media.licdn.com/dms/image/D5635AQEKwSmj-ospXQ/profile-framedphoto-shrink_400_400/0/1696699346925?e=1698811200&v=beta&t=3q6ZO9QpTj7IHN73WqCUPzeZN7Y-T6d765Qh0MConqo",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Ravi does.",
+    name: "Ashwin",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Ravi optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,9 +171,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Social Pshyco",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "SocialPshyco is a social media website. Here user can upload posts and also users can see other users posts and also like comment their posts.",
     tags: [
       {
         name: "react",
@@ -216,12 +189,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Ravi80595/socialPshycho",
   },
   {
-    name: "Job IT",
+    name: "Pharmbuddy",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Pharmbuddy is an E-commerce website with user-friendly features for shopping and a custom Content Management System (CMS) that simplifies admin tasks.",
     tags: [
       {
         name: "react",
@@ -237,7 +210,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/itsDipaks/Farm-Buddy.com",
   },
   {
     name: "Trip Guide",
